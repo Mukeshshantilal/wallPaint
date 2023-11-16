@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wall Color Selector</title>
+    <style>
+      #controls {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="controls">
+      <video id="video" style="width: 100%" autoplay></video>
+      <button id="capture">Capture</button>
+      <br />
+      <label for="tolerance">Tolerance:</label>
+      <input
+        type="range"
+        id="tolerance"
+        name="tolerance"
+        min="0"
+        max="100"
+        value="30"
+      />
+      <br />
+      <input type="color" id="colorPicker" />
+    </div>
+    <canvas id="imageCanvas"></canvas>
+
+    <script src="app.js"></script>
+  </body>
+</html>
