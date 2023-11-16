@@ -64,6 +64,7 @@ window.onload = function () {
       applyBrush(x, y);
     }
   }
+  // haha
 
   function handleInitialClick(x, y) {
     console.log(44);
